@@ -3,6 +3,7 @@ import React from "react";
 
 const UserProfile = ({ params }: { params: { id: string } }) => {
   const { id } = params;
+  // params.id;
   return (
     <>
       <div className="text-3xl font-bold border-b-2 mb-4">User Details</div>

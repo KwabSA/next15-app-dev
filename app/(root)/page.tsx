@@ -5,7 +5,7 @@ const Home = () => {
     <>
       <div className="text-2xl mx-24">Welcome to NEXT 15.</div>
       <button className="rounded-full">
-        <Link href={"/about"} className="mx-16">
+        <Link href={"/about"} className="underline">
           About
         </Link>
       </button>

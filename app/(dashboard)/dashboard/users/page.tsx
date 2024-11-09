@@ -14,7 +14,7 @@ const UsersPage = () => {
         </span>
       </div>
 
-      <ul className="mt-8">
+      <ul className="mt-8 space-y-2">
         <li>
           <Link href={"/dashboard/users/1"}>User 1</Link>
         </li>
